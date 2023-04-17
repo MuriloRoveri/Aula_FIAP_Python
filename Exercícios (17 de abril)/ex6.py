@@ -4,7 +4,7 @@ b = float(input("Digite o valor de b: "))
 c = float(input("Digite o valor de c: "))
 
 if i < 0:
-    (i*-1)
+    i *= -1
 
 if i == 1:
     if a > b > c:
@@ -48,5 +48,5 @@ elif i == 3:
     if c > b > a:
         print(f"{b} {c} {a}")    
 
-else:
+elif i > 3:
     print("O Valor de i não é nenhum dos 3 escolhidos.")
