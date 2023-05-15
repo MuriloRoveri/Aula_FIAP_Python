@@ -1,10 +1,9 @@
-numeros = []
-num = soma = 0
-for i in range(0, 15, 1):
-    print("Digite um numero inteiro")
-    num = int(input())
-    numeros.append(num)
-#soma = sum(numeros)
-for i in numeros :
-    soma += i
-print(f"Somatória dos valores é {soma}")
+def divisao(n1, n2):
+    result = n1%n2
+    return result
+
+print("Digite dois números inteiros para serem divididos:")
+num1 = int(input())
+num2 = int(input())
+resultado = divisao(num1, num2)
+print(f"O Resto da divisão é {resultado}")

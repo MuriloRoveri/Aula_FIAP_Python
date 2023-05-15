@@ -1,12 +1,7 @@
-#import statistics
-numeros = []
-num = media = 0.0
-soma = 0.0
-for i in range(0, 20, 1):
-    print("Digite um numero real")
-    num = float(input())
-    numeros.append(num)
-for i in numeros:
-    soma += 1
-    media = soma / len(numeros)
-    print(f"Média dos valores é {media}")
+def raiz(n1):
+    rquad = n1**0.5
+    return rquad
+
+num1 = int(input("Digite um número para ver sua raiz quadrada: "))
+raizquadrada = raiz(num1)
+print(f"A raiz quadrada é {raizquadrada}")
